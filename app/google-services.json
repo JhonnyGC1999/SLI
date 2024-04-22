@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090814626267",
+    "project_id": "sistema-li",
+    "storage_bucket": "sistema-li.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090814626267:android:a762beab90372241b6fffe",
+        "android_client_info": {
+          "package_name": "com.example.sli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHaZyC8gcVBIU-tXUbTchRXEFTdP6VNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

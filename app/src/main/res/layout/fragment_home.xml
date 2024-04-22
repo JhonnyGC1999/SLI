@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/sistema_de_levantamiento_de_inventario"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="202dp"
+        android:contentDescription="@string/procomputo"
+        android:layout_height="118dp"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/procomputo"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+
+        android:id="@+id/btn_Entrar"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/entrar"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_Salir"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/salir"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Entrar"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/btn_Entrar"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Entrar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

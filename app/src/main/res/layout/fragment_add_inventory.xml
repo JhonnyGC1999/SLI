@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AddInventoryFragment">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="55sp"
+        android:layout_gravity="center"
+        android:text="Agregar"
+        android:textSize="30sp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18sp">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Nombre:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:text="Tipo de producto:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio:"
+            android:textSize="20sp"
+            android:layout_margin="5sp" />
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:id="@+id/txtCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:"
+            android:textSize="20sp"
+            android:layout_margin="5sp"/>
+
+        <EditText
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código:"
+            android:textSize="20sp"
+            android:layout_margin="5sp"/>
+
+        <EditText
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción:"
+            android:textSize="20sp"
+            android:layout_margin="5sp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="367dp"
+            android:layout_height="75dp"
+            android:layout_margin="5sp"
+            android:layout_marginBottom="8dp"
+            android:inputType="textMultiLine"
+            android:lines="6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:layout_marginEnd="20sp"/>
+
+        <Button
+            android:id="@+id/btnEscaner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escanear" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

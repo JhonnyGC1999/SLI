@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SLI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="salir">Salir</string>
+    <string name="entrar">Entrar</string>
+    <string name="sistema_de_levantamiento_de_inventario">Sistema de Levantamiento de Inventario</string>
+    <string name="procomputo">procomputo</string>
+</resources>
